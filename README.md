@@ -25,3 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+npm update -g @angular/cli
+
+ng new five-min-app --style=scss --routing
+
+ng generate universal ngu-app-shell
+
+yarn add @angular/platform-server
+
+ng generate module pages/home --routing
+
+ng generate component pages/home
+
+ng generate app-shell my-loading-shell  --universal-app=ngu-app-shell  --route=home 
